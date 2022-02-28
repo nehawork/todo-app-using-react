@@ -1,0 +1,35 @@
+.todo-title-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.list-wrapper {
+  max-width: 960px;
+  height: 100%;
+}
+
+.todo-tasks-wrapper {
+  max-height: calc(100% - 275px);
+  overflow: auto;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-wrapper {
+  width: calc(100% - 70px);
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+
+.btn-close {
+  margin-top: 0.4rem;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
